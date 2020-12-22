@@ -1,0 +1,14 @@
+# Write your query or mutation here
+query posts {
+  blogposts {
+    id
+    headerPhoto{
+      id
+      url
+    }
+    title
+    slug
+    postDate
+    featured
+  }
+}

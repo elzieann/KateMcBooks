@@ -1,0 +1,5 @@
+<div class="post" *ngFor="let p of post | async">
+    <h2>{{ p?.title}}</h2>
+    <div class="content" [innerHTML]="postContent">
+    </div>
+</div>

@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "KateMcBooks"
+  "defaultProject": "KateMcBooks",
+  "cli": {
+    "analytics": "3c270bfd-72ea-4974-ae7a-d2cc65f4cc40"
+  }
 }

@@ -1,0 +1,15 @@
+# Write your query or mutation here
+query singlePost($whereClause: JSON!) {
+  blogposts(where: $whereClause, limit: 1) {
+    id
+    headerPhoto{
+      id
+      url
+    }
+    title
+    slug
+    postDate
+    featured
+    content
+  }
+}

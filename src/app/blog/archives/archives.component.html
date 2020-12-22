@@ -1,0 +1,3 @@
+<div class="post" *ngFor="let p of posts | async">
+    <a href="/blog/post/{{p?.slug}}">{{ p?.title }}</a> by Kate McIntyre on {{p?.postDate | date}}
+</div>
